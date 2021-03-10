@@ -1,0 +1,33 @@
+.grid-half {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cross {
+  color: #f2aa00;
+  text-decoration: line-through;
+}
+.cross span {
+  color: black;
+}
+.top {
+  margin-top: 1rem;
+  width: 100%;
+}
+.responsive-img {
+  width: 100%;
+  height: auto;
+}
+
+.font-m {
+  font-size: 1.4rem;
+}
+@media only screen and (max-width: 600px) {
+  .grid-half {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  .font-m {
+    font-size: 0.8rem;
+  }
+}
