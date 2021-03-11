@@ -1,27 +1,30 @@
 import InputText from './InputText';
-const Form = () =>{
+const Form = () => {
+  // TODO : Implement form Submission to some dummy api and redirection to a Thankyou page https://jsonplaceholder.typicode.com/
+
   return (
     <div>
       <div className="row my-5">
         <div className=" col-sm-12 col-md-6">
           <div className="row">
             <div className="col-sm-6 p-1 ">
-              <InputText name="form-control" place="" value = "Bengalore"/>
+              {/* // TODO : use select */}
+              <InputText name="form-control" place="" value="Bengalore" />
 
             </div>
             <div className="col-sm-6 p-1">
-              <InputText name="form-control" place="PinCode" value = ""/>
+              <InputText name="form-control" place="PinCode" value="" />
             </div>
             <div className="col-sm-6 p-1">
-            <InputText name="form-control" place="Email" value = ""/>
+              <InputText name="form-control" place="Email" value="" />
             </div>
             <div className="col-sm-6 p-1 ">
-               <button className="btn btn-danger w-100"> Try it</button>
+              <button className="btn btn-danger w-100"> Try it</button>
             </div>
 
           </div>
         </div>
-        
+
       </div>
       <div className="row text-center">
         <div className="col m4 s4">

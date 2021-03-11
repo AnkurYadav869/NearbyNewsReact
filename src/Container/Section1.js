@@ -5,19 +5,20 @@ import Carousel from '../Component/Carousel';
 import Social from '../Component/Social';
 import './Section1.css'
 import Showcase from '../Component/Showcase'
-const Section1 = ()=>{
+const Section1 = () => {
+
   return (
     <div>
       <div className="grid-half">
-        <Left/>
-        <Right/>
+        <Left />
+        <Right />
       </div>
-        <Form/>
-      <Carousel heading="Check out our rave reviews 🤩"/>
-      <Social/>
-      <Showcase/>
-      <Carousel  heading="Hyderabad ❤️ us"/>
-      <Showcase/>
+      <Form />
+      <Carousel heading="Check out our rave reviews 🤩" />
+      <Social />
+      <Showcase />
+      <Carousel heading="Hyderabad ❤️ us" />
+      <Showcase />
     </div>
   )
 }
