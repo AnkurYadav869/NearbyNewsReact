@@ -1,9 +1,9 @@
 import Mob from '../Images/hero-img.png'
-const Right = () =>{
+const Right = () => {
   return (
-   <div>
-     <img src={Mob} className="responsive-img" alt=""/>
-   </div>
+    <div>
+      <img src={Mob} className="responsive-img" alt="" />
+    </div>
   )
 }
 export default Right
