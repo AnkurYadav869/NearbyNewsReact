@@ -13,7 +13,7 @@ const Social = () => {
       <div className="form-inline justify-content-center my-4">
         <InputText name="form-control m-1" place="PinCode" value="" />
         <InputText name="form-control m-1" place="Email" value="" />
-        <button className="btn btn-danger m-1 ">Try it</button>
+        <button className="btn btn-danger" data-toggle="modal" data-target="#exampleModal">Try it</button>
       </div>
     </div>
 
