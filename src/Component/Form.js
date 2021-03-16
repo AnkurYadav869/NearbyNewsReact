@@ -1,11 +1,10 @@
-// import InputText from './InputText';
 import { useHistory } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 const Form = () => {
 	// TODO : Implement form Submission to some dummy api and redirection to a Thankyou page https://jsonplaceholder.typicode.com/
-	// instad created a modal...
+	// Form validation
 	const schema = yup.object().shape({
 		pincode: yup
 			.string()
